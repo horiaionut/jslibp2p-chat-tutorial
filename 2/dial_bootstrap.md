@@ -3,7 +3,7 @@ Try it yourlsef
 * init multiadr, dail libp2p (some more description about the apis)
 
 Try it locally
-* open one terminal and run the bootsrap 
+* open one terminal and run the bootstrap 
 * and from other term run index, you would see the connect log!
 
-Now you are able to make a connection between the bootstrap and a user. This concludes the chapter. In the next chapter we would try to send and recieve data through the establised connection.
+Now you are able to make a connection between the bootstrap and a user. This concludes the chapter. In the next chapter we would try to send and receive data through the established connection.

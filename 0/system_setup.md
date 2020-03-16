@@ -1,8 +1,8 @@
 ## Getting your system ready
-> The complete tutorial could be practiced online on the browser with no setup, as the tutorial provides an interactive code editor but it is higly recommended to run the code directly from the system. 
+> The complete tutorial could be practiced online on the browser with no setup, as the tutorial provides an interactive code editor but it is highly recommended to run the code directly from the system. 
 
 
-### To try everthing directly on the system:
+### To try everything directly on the system:
 
 1. It is highly recommended to use any text editor, eg. [Sublimtext](https://www.sublimetext.com/3), [Visualstudio](https://visualstudio.microsoft.com/), [Vim](https://www.vim.org/), etc.  
 2. You must have access to terminal in your system. For windows users node.js terminal would work. 

@@ -10,7 +10,7 @@ As the word transport says it does transportation, but of data between two peers
 In a p2p system it might be not clear which of these standards does the other party supports. As the standards are drastically different it would be hard for a p2p system to implement each one from scratch. 
 
 ## This is where transports of libp2p comes
-One thing which is very clear though every transport is very different in the core implementation it has certain operations in common eg. dialing other user, recieving packets, etc.
+One thing which is very clear though every transport is very different in the core implementation it has certain operations in common eg. dialing other user, receiving packets, etc.
 >TODO: Add better examples above.
 
 `libp2p` uses this commonality to come up with an interface (a set of functions) that any module needs to follow in order to be used in an transport. 

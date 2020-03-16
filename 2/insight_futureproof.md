@@ -1,4 +1,4 @@
-Making fututre proof protocols
+Making future proof protocols
 ==============================
 
 Use multi addrs to explain concept future proof libp2p.

@@ -1,5 +1,5 @@
 * What is bootstrap? why do we need it?
-* How we can see our curent address and become a bootstrap
+* How we can see our current address and become a bootstrap
 * By default how libp2p already gives an ipfs address and how we can fix a address for the bootstrap for easier purpose
 
 Try it yourself
