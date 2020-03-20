@@ -4,7 +4,7 @@ TODO: Add a cool gif about transports
 lets break it!
 
 ## What does transport means in p2p system?
-As the word transport says it does transportation, but of data between two peers. Currently our internet supports multiple standards of communication. Eg. tcp, websockets, mqtt, etc. Every standard is just a set of rules that both communicating parties have to follow in order for a succesfull comunication. 
+As the word transport says it does transportation, but of data between two peers. Currently our internet supports multiple standards of communication. Eg. tcp, websockets, mqtt, etc. Every standard is just a set of rules that both communicating parties have to follow to successfully communicate. 
 >TODO: Verify and add transports. For each transport link to the official documentation to show how they differ in the core implementation but still have the same functionalities. 
 
 In a p2p system it might be not clear which of these standards does the other party supports. As the standards are drastically different it would be hard for a p2p system to implement each one from scratch. 
