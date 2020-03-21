@@ -4,25 +4,22 @@ TODO: Add a cool gif about transports
 lets break it!
 
 ## What does transport means in p2p system?
-As the word transport says it does transportation, but of data between two peers. Currently our internet supports multiple standards of communication. Eg. tcp, websockets, mqtt, etc. Every standard is just a set of rules that both communicating parties have to follow to successfully communicate. 
->TODO: Verify and add transports. For each transport link to the official documentation to show how they differ in the core implementation but still have the same functionalities. 
+As the word transport says it does transportation, but of data between two peers. Currently our internet supports multiple standards of communication. Eg. [tcp](https://www.avast.com/c-what-is-tcp-ip), [websockets](https://blog.teamtreehouse.com/an-introduction-to-websockets), [mqtt](https://github.com/mqtt/mqtt.github.io/wiki), etc. Every standard is just a set of rules that both communicating parties have to follow in order for a successful communication.
+>TODO: Verify and add transports.
 
 In a p2p system it might be not clear which of these standards does the other party supports. As the standards are drastically different it would be hard for a p2p system to implement each one from scratch. 
 
 ## This is where transports of libp2p comes
-One thing which is very clear though every transport is very different in the core implementation it has certain operations in common eg. dialing other user, receiving packets, etc.
->TODO: Add better examples above.
+One thing which is very clear though every transport is very different in the core implementation it has certain operations in common eg. dialing other user, sending/receiving packets and listening for connections.
 
-`libp2p` uses this commonality to come up with an interface (a set of functions) that any module needs to follow in order to be used in an transport. 
->TODO: Link to the documentation of libp2p. 
+[`libp2p`](https://docs.libp2p.io/) uses these similarities to build an interface (a set of functions) that every module needs to follow in order to be used in a transport. In addition, libp2p provides implementations of some of the important [transport protocols](https://libp2p.io/implementations/).
 
-not only that it also provides the implementation of the most important once. 
->TODO: Link to the list of transport implementation.
-
-Now any one can choose to easily plug any of the transport implementation without any pain. As well as you can also come up with your own transport (lets say `mars-wwq2`) you can follow the interface and that would work with any system that uses libp2p. 
+Now anyone can plug in any of the transport implementations and use the common interface to work with it. One can also come up with it's own transport implementation, and, as long as they follow the interface, it would work with any system that uses libp2p.
 
 ## Use of transport in our awesome-p2p-chat-system
 >TODO: explain that in the end you would have a way to communicate with other peers for out chat system
 
+A chat application needs to make use of communication protocols to deliver messages from one user to another. To decide which protocol fits best our chat, we need to consider their different features and filter out the ones that don't provide the functionalities that our chat requires. For example, the UDP protocol does not guarantee that messages even arrive at the destination, which is clearly unacceptable for a chat.
+
 ## Additional Reference
->TODO: SimpleAsWater/transports
+[simpleaswater/transport](https://simpleaswater.com/transport/)
