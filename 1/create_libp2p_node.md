@@ -1,7 +1,9 @@
 Create a basic libp2p node
 ==========================
-* Explaining that libp2p-core is just a skeleton.
+* As discussed, libp2p-core module is just a list of what jobs libp2p can perform. To actually be able to perform these jobs, other libp2p modules are necessary. There could be multiple modules that can provide implementations for these jobs but they do it in different ways. For every application built with libp2p a decision needs to be made on which modules are used to provide implementation for the desired tasks and our chat is nothing less!
+
 * All modules could be added through options
+
 * Examples of creating options and setting up config for each options (Refer: https://github.com/libp2p/js-libp2p/blob/8bed8f39ff3975850191cec93b7537d1428c8629/doc/CONFIGURATION.md#configuration-examples
 )
 * All the fields in the option also gives a brief overview of what libp2p is built of. 
